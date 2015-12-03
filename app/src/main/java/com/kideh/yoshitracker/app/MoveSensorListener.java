@@ -54,7 +54,7 @@ public class MoveSensorListener implements SensorEventListener {
 
 
     private void alertBySMS() {
-        String phoneNo = "23370288";
+        String phoneNo = ""; // INSERT PHONE NR
         String message = "YoshiBox Hit Alert!!";
 
         try {
